@@ -35,7 +35,7 @@ $(function () {
     //   createPlatform(canvas.width, i, -canvas.width, -1);
     // }
 
-    /////////////////////////////////////////////////
+    ////////////////////////////////////////////////
     //////////ONLY CHANGE BELOW THIS POINT///////////
     /////////////////////////////////////////////////
 
@@ -43,6 +43,23 @@ $(function () {
     // Create platforms
     // You must decide the x position, y position, width, and height of the platforms
     // example usage: createPlatform(x,y,width,height)
+createPlatform(200,700,100,5);
+createPlatform(200,500,100,5);
+createPlatform(200,300,100,5);
+createPlatform(200,100,100,5);
+createPlatform(400,600,100,5);
+createPlatform(400,400,100,5);
+createPlatform(400,200,100,5);
+createPlatform(600,700,100,5);
+createPlatform(600,500,100,5);
+createPlatform(600,300,100,5);
+createPlatform(600,100,100,5);
+createPlatform(800,100,100,5);
+createPlatform(900,200,100,5);
+createPlatform(1000,300,100,5);
+createPlatform(1100,400,300,5);
+
+
 
 
 
@@ -52,6 +69,11 @@ $(function () {
     // You must decide on the collectable type, the x position, the y position, the gravity, and the bounce strength
     // Your collectable choices are 'database' 'diamond' 'grace' 'kennedi' 'max' and 'steve'; more can be added if you wish
     // example usage: createCollectable(type, x, y, gravity, bounce)
+    createCollectable("database",240,150,0.1,1);
+    createCollectable("database",435,300,0.1,1);
+    createCollectable("database",636,150,0.1,1);
+    createCollectable("database",1035,150,0.1,1);
+
 
 
 
@@ -60,7 +82,11 @@ $(function () {
     // Create cannons
     // You must decide the wall you want the cannon on, the position on the wall, and the time between shots in milliseconds
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
-    // example usage: createCannon(side, position, delay, width, height)
+    // example usage: 
+    createCannon("left", 100, 3000);
+    createCannon("right", 100,3000);
+    createCannon("left", 500,3000);
+
 
 
 
